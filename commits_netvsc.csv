@@ -3,6 +3,7 @@ https://github.com/torvalds/linux/commit/82cd4bacff88a11e36f143e2cb950174b09c86c
 https://github.com/torvalds/linux/commit/9f8b577f7b43b2170628d6c537252785dcc2dcea,"Mar 29, 2022",Drivers: hv: vmbus: Deactivate sysctl_record_panic_msg by default in isolated guests,Restrict features,,
 https://github.com/torvalds/linux/commit/96d9d1fa5cd505078534113308ced0aa56d8da58,"Jan 23, 2022",Drivers: hv: balloon: account for vmbus packet header in max_pkt_size,Amend Fix,,
 https://github.com/torvalds/linux/commit/6a27e396ebb149fc47baccc1957a7a9dd70049a7,"January 5, 2022",Drivers: hv: vmbus: Initialize request offers message for Isolation VM,Add Initializations,,
+https://github.com/torvalds/linux/commit/846da38de0e8224f2f94b885125cf1fd2d7b0d39,"Dec 20, 2021",net: netvsc: Add Isolation VM support for netvsc driver,Add copy,Yes but not quantified,Copy introduced via bounce buffers (swiotlb/swiommu)
 https://github.com/torvalds/linux/commit/9a8797722e4239242d0cb4cc4baa805df6ac979e,"Oct 28, 2021",Drivers: hv: vmbus: Initialize VMbus ring buffer for Isolation VM,Add Initializations,,
 https://github.com/torvalds/linux/commit/9d68cd9120e4e3af38f843e165631c323b86b4e4,"Aug 25, 2021",hv_utils: Set the maximum packet size for VSS driver to the length of the receive buffer,Amend Fix,,
 https://github.com/torvalds/linux/commit/adae1e931acd8b430d31141a283ea06d4b705417,"May 14, 2021",Drivers: hv: vmbus: Copy packets sent by Hyper-V out of the ring buffer,Add copy,,Seems to be a rework of the previous reverted copy.
