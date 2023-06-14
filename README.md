@@ -35,7 +35,7 @@ maintainers.
 
 ### :page_facing_up: `commits_virtio.csv`
 
-Contains a study of all Linux NetVSC hardening commits for confidential trust
+Contains a study of all Linux VirtIO hardening commits for confidential trust
 models. Obtained via systematic review of commits for relevant files and
 maintainers, combined with additional input from Jason Wang (Red Hat).
 
